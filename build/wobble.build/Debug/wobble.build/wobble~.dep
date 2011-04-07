@@ -1,0 +1,9 @@
+3a87ab5eff921844d162f279273395fb 5e374c77358e903955baec2e96efa373 ffffffffffffffffffffffffffffffff 102 /Users/josh/Documents/xcode/wobble/build/Debug/wobble.app
+438a3d2496ae7901c6759ef2ee730fb9 a1eede36ee208f122e3c365c001a94dd ffffffffffffffffffffffffffffffff 14472 /Users/josh/Documents/xcode/wobble/build/Debug/wobble.app/Contents/MacOS/wobble
+000000004d9d0a31000000000002bb60 516717c553f539141e4ca3fbd5f16c86 ffffffffffffffffffffffffffffffff 34367 /Users/josh/Documents/xcode/wobble/build/Debug/wobble.app/Contents/Resources/English.lproj/MainMenu.nib
+000000004d9d0a31000000000000002d 89845f89d4e9d7432767f92c1ca9d954 ffffffffffffffffffffffffffffffff 92 /Users/josh/Documents/xcode/wobble/build/Debug/wobble.app/Contents/Resources/English.lproj/InfoPlist.strings
+00000000000000000000000000000000 de07229f71b565e5f2eeeba4ea93f51b ffffffffffffffffffffffffffffffff 8 /Users/josh/Documents/xcode/wobble/build/Debug/wobble.app/Contents/PkgInfo
+00000000000000000000000000000000 de07229f71b565e5f2eeeba4ea93f51b ffffffffffffffffffffffffffffffff 883 /Users/josh/Documents/xcode/wobble/build/Debug/wobble.app/Contents/Info.plist
+de5f2df8769cdc12da3743a073463506 02c4e5d349567115e76dc753a24ed247 ffffffffffffffffffffffffffffffff 21072 /Users/josh/Documents/xcode/wobble/build/wobble.build/Debug/wobble.build/Objects-normal/x86_64/wobbleAppDelegate.o
+de5f2df83b01d623da3743a0734635ac 414ed8f794296dfc211859a14c3d785a ffffffffffffffffffffffffffffffff 4984 /Users/josh/Documents/xcode/wobble/build/wobble.build/Debug/wobble.build/Objects-normal/x86_64/main.o
+000000000d59a059000000000000016a de5f2df83b01d623da3743a0734635dd ffffffffffffffffffffffffffffffff 54265616 /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-cnigzksuzztecpafrjspgjxtpvzz/wobble_Prefix.pch.gch

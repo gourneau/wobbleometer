@@ -1,0 +1,539 @@
+Twobble
+v7
+r0
+t323832104.519596
+cCheck dependencies
+cProcessInfoPlistFile /Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/Info.plist wobble-Info.plist
+cCopyStringsFile /Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/josh/Documents/xcode/wobble/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-aosckeojyrupqdechpbyuteccvcw/wobble_Prefix.pch.gch wobble_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-damnspotikskudakebequynlpzqr/wobble_Prefix.pch.gch wobble_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-gycsislzqrqoglcjinoifqakxkgr/wobble_Prefix.pch.gch wobble_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-fayjmmylwqtcawakqhehdwshvfte/wobble_Prefix.pch.gch wobble_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-cdhucdwgzxsuywgifaipgietmyiw/wobble_Prefix.pch.gch wobble_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-etjtxpkawuciyceldavuvpvyzwhb/wobble_Prefix.pch.gch wobble_Prefix.pch normal ppc c com.apple.compilers.gcc.4_2
+cCompileC build/wobble.build/Release/wobble.build/Objects-normal/x86_64/main.o /Users/josh/Documents/xcode/wobble/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/wobble.build/Release/wobble.build/Objects-normal/x86_64/wobbleAppDelegate.o /Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/wobble.build/Release/wobble.build/Objects-normal/x86_64/unimotion.o /Users/josh/Documents/xcode/wobble/unimotion.c normal x86_64 c com.apple.compilers.gcc.4_2
+cLd /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/x86_64/wobble normal x86_64
+cCompileC build/wobble.build/Release/wobble.build/Objects-normal/i386/main.o /Users/josh/Documents/xcode/wobble/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/wobble.build/Release/wobble.build/Objects-normal/i386/wobbleAppDelegate.o /Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/wobble.build/Release/wobble.build/Objects-normal/i386/unimotion.o /Users/josh/Documents/xcode/wobble/unimotion.c normal i386 c com.apple.compilers.gcc.4_2
+cLd /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/i386/wobble normal i386
+cCompileC build/wobble.build/Release/wobble.build/Objects-normal/ppc/main.o /Users/josh/Documents/xcode/wobble/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/wobble.build/Release/wobble.build/Objects-normal/ppc/wobbleAppDelegate.o /Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/wobble.build/Release/wobble.build/Objects-normal/ppc/unimotion.o /Users/josh/Documents/xcode/wobble/unimotion.c normal ppc c com.apple.compilers.gcc.4_2
+cLd /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/ppc/wobble normal ppc
+cCreateUniversalBinary /Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/MacOS/wobble normal "x86_64 i386 ppc"
+cGenerateDSYMFile /Users/josh/Documents/xcode/wobble/build/Release/wobble.app.dSYM /Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/MacOS/wobble
+cTouch /Users/josh/Documents/xcode/wobble/build/Release/wobble.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C5342BA00000000000000EE
+t1280524986
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004C4DF5510000000000000AF4
+t1280177489
+s2804
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h
+c000000004C4DF7F50000000000012048
+t1280178165
+s73800
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004C5342AC000000000003AB6C
+t1280524972
+s240492
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004AC59DB7000000000000190C
+t1254464951
+s6412
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/josh/Documents/xcode/wobble/English.lproj/InfoPlist.strings
+c000000004D9D0A31000000000000002D
+t1302137393
+s45
+
+N/Users/josh/Documents/xcode/wobble/English.lproj/MainMenu.xib
+c000000004D9D0AB6000000000002D7F1
+t1302137526
+s186353
+
+N/Users/josh/Documents/xcode/wobble/build/Release/wobble.app
+t1302139234
+s102
+
+N/Users/josh/Documents/xcode/wobble/build/Release/wobble.app.dSYM
+t1302139234
+s102
+
+N/Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/Info.plist
+t1302139227
+s883
+
+N/Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/MacOS/wobble
+t1302139234
+s69368
+
+N/Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/PkgInfo
+t1302139227
+s8
+
+N/Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1302139227
+s92
+
+N/Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/Resources/English.lproj/MainMenu.nib
+t1302139227
+s35261
+
+N/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/i386/main.o
+t1302139234
+s4836
+
+N/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/i386/unimotion.o
+t1302139234
+s17340
+
+N/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/i386/wobble
+t1302139234
+s20840
+
+N/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/i386/wobble.LinkFileList
+c000000004D9D115B0000000000000144
+t1302139227
+s324
+
+N/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/i386/wobbleAppDelegate.o
+t1302139234
+s15544
+
+N/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/ppc/main.o
+t1302139234
+s4864
+
+N/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/ppc/unimotion.o
+t1302139234
+s19604
+
+N/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/ppc/wobble
+t1302139234
+s20216
+
+N/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/ppc/wobble.LinkFileList
+c000000004D9D115B0000000000000141
+t1302139227
+s321
+
+N/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/ppc/wobbleAppDelegate.o
+t1302139234
+s15620
+
+N/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/x86_64/main.o
+t1302139234
+s5040
+
+N/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/x86_64/unimotion.o
+t1302139234
+s22464
+
+N/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/x86_64/wobble
+t1302139234
+s17744
+
+N/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/x86_64/wobble.LinkFileList
+c000000004D9D115B000000000000014A
+t1302139227
+s330
+
+N/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/x86_64/wobbleAppDelegate.o
+t1302139234
+s21500
+
+N/Users/josh/Documents/xcode/wobble/main.m
+c000000004D9D16C500000000000002BF
+t1302140613
+s703
+i<Cocoa/Cocoa.h>
+i"unimotion.h"
+
+N/Users/josh/Documents/xcode/wobble/unimotion.c
+c000000004D9BE60B00000000000031A9
+t1302062603
+s12713
+i"unimotion.h"
+i<IOKit/IOKitLib.h>
+i<CoreFoundation/CoreFoundation.h>
+i<string.h>
+i<stdint.h>
+
+N/Users/josh/Documents/xcode/wobble/unimotion.h
+c000000004D9BE60B0000000000000A5D
+t1302062603
+s2653
+i<stdint.h>
+
+N/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.h
+c000000004D9D0A31000000000000013A
+t1302137393
+s314
+i<Cocoa/Cocoa.h>
+
+N/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m
+c000000004D9D12EB000000000000013D
+t1302139627
+s317
+i"wobbleAppDelegate.h"
+
+N/Users/josh/Documents/xcode/wobble/wobble_Prefix.pch
+c000000004D9D0A31000000000000008F
+t1302137393
+s143
+i<Cocoa/Cocoa.h>
+
+N/var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-aosckeojyrupqdechpbyuteccvcw/wobble_Prefix.pch.gch
+t1302139234
+s52922128
+
+N/var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-cdhucdwgzxsuywgifaipgietmyiw/wobble_Prefix.pch.gch
+t1302139233
+s52794960
+
+N/var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-damnspotikskudakebequynlpzqr/wobble_Prefix.pch.gch
+t1302139228
+s2195824
+
+N/var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-etjtxpkawuciyceldavuvpvyzwhb/wobble_Prefix.pch.gch
+t1302139228
+s1950064
+
+N/var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-fayjmmylwqtcawakqhehdwshvfte/wobble_Prefix.pch.gch
+t1302139228
+s2187632
+
+N/var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-gycsislzqrqoglcjinoifqakxkgr/wobble_Prefix.pch.gch
+t1302139234
+s55559984
+
+Nwobble-Info.plist
+c000000004D9D0A3100000000000003EA
+t1302137393
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323832104#323832104#0(0"0(0#1#0"8628321984#0"0#
+
+CCompileC build/wobble.build/Release/wobble.build/Objects-normal/i386/main.o /Users/josh/Documents/xcode/wobble/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323832034.108626
+e323832034.291089
+r1
+xCompileC
+xbuild/wobble.build/Release/wobble.build/Objects-normal/i386/main.o
+x/Users/josh/Documents/xcode/wobble/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/josh/Documents/xcode/wobble/main.m323832034#323832034#0(0"0(0#0#41"/Users/josh/Documents/xcode/wobble/main.m8616059360#1416"    cd /Users/josh/Documents/xcode/wobble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-generated-files.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-own-target-headers.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-all-target-headers.hmap -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-project-headers.hmap -F/Users/josh/Documents/xcode/wobble/build/Release -I/Users/josh/Documents/xcode/wobble/build/Release/include -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources/i386 -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources -include /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-gycsislzqrqoglcjinoifqakxkgr/wobble_Prefix.pch -c /Users/josh/Documents/xcode/wobble/main.m -o /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/i386/main.o0#
+
+CCompileC build/wobble.build/Release/wobble.build/Objects-normal/i386/unimotion.o /Users/josh/Documents/xcode/wobble/unimotion.c normal i386 c com.apple.compilers.gcc.4_2
+s323832034.291218
+e323832034.526739
+r1
+xCompileC
+xbuild/wobble.build/Release/wobble.build/Objects-normal/i386/unimotion.o
+x/Users/josh/Documents/xcode/wobble/unimotion.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/josh/Documents/xcode/wobble/unimotion.c: In function 'probe_sms':
+o/Users/josh/Documents/xcode/wobble/unimotion.c:229: warning: 'IOConnectMethodStructureIStructureO' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:1402)
+lSLF07#2@54"Compile /Users/josh/Documents/xcode/wobble/unimotion.c323832034#323832034#0(297"/Users/josh/Documents/xcode/wobble/unimotion.c: In function 'probe_sms':/Users/josh/Documents/xcode/wobble/unimotion.c:229: warning: 'IOConnectMethodStructureIStructureO' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:1402)1(22@162"'IOConnectMethodStructureIStructureO' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:1402)323832034#73#224#0(6@46"/Users/josh/Documents/xcode/wobble/unimotion.c323755403#229#0#229#0#33"'*' is deprecated (declared at *)0(0#0#46"/Users/josh/Documents/xcode/wobble/unimotion.c8628877248#1416"    cd /Users/josh/Documents/xcode/wobble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-generated-files.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-own-target-headers.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-all-target-headers.hmap -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-project-headers.hmap -F/Users/josh/Documents/xcode/wobble/build/Release -I/Users/josh/Documents/xcode/wobble/build/Release/include -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources/i386 -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources -include /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-fayjmmylwqtcawakqhehdwshvfte/wobble_Prefix.pch -c /Users/josh/Documents/xcode/wobble/unimotion.c -o /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/i386/unimotion.o0#
+
+CCompileC build/wobble.build/Release/wobble.build/Objects-normal/i386/wobbleAppDelegate.o /Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323832034.279219
+e323832034.523985
+r1
+xCompileC
+xbuild/wobble.build/Release/wobble.build/Objects-normal/i386/wobbleAppDelegate.o
+x/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m: In function '-[wobbleAppDelegate applicationDidFinishLaunching:]':
+o/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'z'
+o/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'y'
+o/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'x'
+lSLF07#2@62"Compile /Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m323832034#323832034#0(387"/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m: In function '-[wobbleAppDelegate applicationDidFinishLaunching:]':/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'z'/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'y'/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'x'3(22@19"Unused variable 'z'323832034#123#88#0(6@54"/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m323831566#25#0#25#0#19"unused variable '*'0(22@19"Unused variable 'y'323832034#211#88#0(6@54"/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m323831566#25#0#25#0#19"unused variable '*'0(22@19"Unused variable 'x'323832034#299#88#0(6@54"/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m323831566#25#0#25#0#19"unused variable '*'0(0#0#54"/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m8628981888#1442"    cd /Users/josh/Documents/xcode/wobble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-generated-files.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-own-target-headers.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-all-target-headers.hmap -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-project-headers.hmap -F/Users/josh/Documents/xcode/wobble/build/Release -I/Users/josh/Documents/xcode/wobble/build/Release/include -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources/i386 -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources -include /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-gycsislzqrqoglcjinoifqakxkgr/wobble_Prefix.pch -c /Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m -o /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/i386/wobbleAppDelegate.o0#
+
+CCompileC build/wobble.build/Release/wobble.build/Objects-normal/ppc/main.o /Users/josh/Documents/xcode/wobble/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s323832034.313967
+e323832034.533355
+r1
+xCompileC
+xbuild/wobble.build/Release/wobble.build/Objects-normal/ppc/main.o
+x/Users/josh/Documents/xcode/wobble/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/josh/Documents/xcode/wobble/main.m323832034#323832034#0(0"0(0#0#41"/Users/josh/Documents/xcode/wobble/main.m8628813120#1423"    cd /Users/josh/Documents/xcode/wobble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-generated-files.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-own-target-headers.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-all-target-headers.hmap -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-project-headers.hmap -F/Users/josh/Documents/xcode/wobble/build/Release -I/Users/josh/Documents/xcode/wobble/build/Release/include -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources/ppc -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources -include /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-cdhucdwgzxsuywgifaipgietmyiw/wobble_Prefix.pch -c /Users/josh/Documents/xcode/wobble/main.m -o /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/wobble.build/Release/wobble.build/Objects-normal/ppc/unimotion.o /Users/josh/Documents/xcode/wobble/unimotion.c normal ppc c com.apple.compilers.gcc.4_2
+s323832034.528254
+e323832034.749968
+r1
+xCompileC
+xbuild/wobble.build/Release/wobble.build/Objects-normal/ppc/unimotion.o
+x/Users/josh/Documents/xcode/wobble/unimotion.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/josh/Documents/xcode/wobble/unimotion.c: In function 'probe_sms':
+o/Users/josh/Documents/xcode/wobble/unimotion.c:229: warning: 'IOConnectMethodStructureIStructureO' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:1402)
+lSLF07#2@54"Compile /Users/josh/Documents/xcode/wobble/unimotion.c323832034#323832034#0(297"/Users/josh/Documents/xcode/wobble/unimotion.c: In function 'probe_sms':/Users/josh/Documents/xcode/wobble/unimotion.c:229: warning: 'IOConnectMethodStructureIStructureO' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:1402)1(22@162"'IOConnectMethodStructureIStructureO' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:1402)323832034#73#224#0(6@46"/Users/josh/Documents/xcode/wobble/unimotion.c323755403#229#0#229#0#33"'*' is deprecated (declared at *)0(0#0#46"/Users/josh/Documents/xcode/wobble/unimotion.c8628475520#1423"    cd /Users/josh/Documents/xcode/wobble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-generated-files.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-own-target-headers.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-all-target-headers.hmap -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-project-headers.hmap -F/Users/josh/Documents/xcode/wobble/build/Release -I/Users/josh/Documents/xcode/wobble/build/Release/include -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources/ppc -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources -include /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-etjtxpkawuciyceldavuvpvyzwhb/wobble_Prefix.pch -c /Users/josh/Documents/xcode/wobble/unimotion.c -o /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/ppc/unimotion.o0#
+
+CCompileC build/wobble.build/Release/wobble.build/Objects-normal/ppc/wobbleAppDelegate.o /Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s323832034.524120
+e323832034.675073
+r1
+xCompileC
+xbuild/wobble.build/Release/wobble.build/Objects-normal/ppc/wobbleAppDelegate.o
+x/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m: In function '-[wobbleAppDelegate applicationDidFinishLaunching:]':
+o/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'z'
+o/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'y'
+o/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'x'
+lSLF07#2@62"Compile /Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m323832034#323832034#0(387"/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m: In function '-[wobbleAppDelegate applicationDidFinishLaunching:]':/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'z'/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'y'/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'x'3(22@19"Unused variable 'z'323832034#123#88#0(6@54"/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m323831566#25#0#25#0#19"unused variable '*'0(22@19"Unused variable 'y'323832034#211#88#0(6@54"/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m323831566#25#0#25#0#19"unused variable '*'0(22@19"Unused variable 'x'323832034#299#88#0(6@54"/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m323831566#25#0#25#0#19"unused variable '*'0(0#0#54"/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m8628907808#1449"    cd /Users/josh/Documents/xcode/wobble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-generated-files.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-own-target-headers.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-all-target-headers.hmap -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-project-headers.hmap -F/Users/josh/Documents/xcode/wobble/build/Release -I/Users/josh/Documents/xcode/wobble/build/Release/include -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources/ppc -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources -include /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-cdhucdwgzxsuywgifaipgietmyiw/wobble_Prefix.pch -c /Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m -o /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/ppc/wobbleAppDelegate.o0#
+
+CCompileC build/wobble.build/Release/wobble.build/Objects-normal/x86_64/main.o /Users/josh/Documents/xcode/wobble/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323832034.106262
+e323832034.279082
+r1
+xCompileC
+xbuild/wobble.build/Release/wobble.build/Objects-normal/x86_64/main.o
+x/Users/josh/Documents/xcode/wobble/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/josh/Documents/xcode/wobble/main.m323832034#323832034#0(0"0(0#0#41"/Users/josh/Documents/xcode/wobble/main.m8628528448#1422"    cd /Users/josh/Documents/xcode/wobble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-generated-files.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-own-target-headers.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-all-target-headers.hmap -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-project-headers.hmap -F/Users/josh/Documents/xcode/wobble/build/Release -I/Users/josh/Documents/xcode/wobble/build/Release/include -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources/x86_64 -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources -include /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-aosckeojyrupqdechpbyuteccvcw/wobble_Prefix.pch -c /Users/josh/Documents/xcode/wobble/main.m -o /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/wobble.build/Release/wobble.build/Objects-normal/x86_64/unimotion.o /Users/josh/Documents/xcode/wobble/unimotion.c normal x86_64 c com.apple.compilers.gcc.4_2
+s323832034.107812
+e323832034.354069
+r1
+xCompileC
+xbuild/wobble.build/Release/wobble.build/Objects-normal/x86_64/unimotion.o
+x/Users/josh/Documents/xcode/wobble/unimotion.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/josh/Documents/xcode/wobble/unimotion.c323832034#323832034#0(0"0(0#0#46"/Users/josh/Documents/xcode/wobble/unimotion.c8616553408#1422"    cd /Users/josh/Documents/xcode/wobble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-generated-files.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-own-target-headers.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-all-target-headers.hmap -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-project-headers.hmap -F/Users/josh/Documents/xcode/wobble/build/Release -I/Users/josh/Documents/xcode/wobble/build/Release/include -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources/x86_64 -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources -include /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-damnspotikskudakebequynlpzqr/wobble_Prefix.pch -c /Users/josh/Documents/xcode/wobble/unimotion.c -o /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/x86_64/unimotion.o0#
+
+CCompileC build/wobble.build/Release/wobble.build/Objects-normal/x86_64/wobbleAppDelegate.o /Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323832034.107131
+e323832034.313840
+r1
+xCompileC
+xbuild/wobble.build/Release/wobble.build/Objects-normal/x86_64/wobbleAppDelegate.o
+x/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m: In function '-[wobbleAppDelegate applicationDidFinishLaunching:]':
+o/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'z'
+o/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'y'
+o/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'x'
+lSLF07#2@62"Compile /Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m323832034#323832034#0(387"/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m: In function '-[wobbleAppDelegate applicationDidFinishLaunching:]':/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'z'/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'y'/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m:25: warning: unused variable 'x'3(22@19"Unused variable 'z'323832034#123#88#0(6@54"/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m323831566#25#0#25#0#19"unused variable '*'0(22@19"Unused variable 'y'323832034#211#88#0(6@54"/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m323831566#25#0#25#0#19"unused variable '*'0(22@19"Unused variable 'x'323832034#299#88#0(6@54"/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m323831566#25#0#25#0#19"unused variable '*'0(0#0#54"/Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m8627984640#1448"    cd /Users/josh/Documents/xcode/wobble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-generated-files.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-own-target-headers.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-all-target-headers.hmap -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-project-headers.hmap -F/Users/josh/Documents/xcode/wobble/build/Release -I/Users/josh/Documents/xcode/wobble/build/Release/include -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources/x86_64 -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources -include /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-aosckeojyrupqdechpbyuteccvcw/wobble_Prefix.pch -c /Users/josh/Documents/xcode/wobble/wobbleAppDelegate.m -o /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/x86_64/wobbleAppDelegate.o0#
+
+CCompileXIB /Users/josh/Documents/xcode/wobble/English.lproj/MainMenu.xib
+s323832027.702677
+e323832028.005603
+r1
+xCompileXIB
+x/Users/josh/Documents/xcode/wobble/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib323832027#323832028#0(0"0(0#0#61"/Users/josh/Documents/xcode/wobble/English.lproj/MainMenu.xib8628673376#353"    cd /Users/josh/Documents/xcode/wobble    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/Resources/English.lproj/MainMenu.nib /Users/josh/Documents/xcode/wobble/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s323832027.701874
+e323832027.822249
+r1
+xCopyStringsFile
+x/Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings323832027#323832027#0(0"0(0#0#66"/Users/josh/Documents/xcode/wobble/English.lproj/InfoPlist.strings8628697728#358"    cd /Users/josh/Documents/xcode/wobble    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/Resources/English.lproj0#
+
+CCreateUniversalBinary /Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/MacOS/wobble normal "x86_64 i386 ppc"
+s323832034.945544
+e323832034.960231
+r1
+xCreateUniversalBinary
+x/Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/MacOS/wobble
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@93"CreateUniversalBinary build/Release/wobble.app/Contents/MacOS/wobble normal "x86_64 i386 ppc"323832034#323832034#0(0"0(0#0#50"/Users/josh/Documents/xcode/wobble/x86_64 i386 ppc8629231584#465"    cd /Users/josh/Documents/xcode/wobble    /usr/bin/lipo -create /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/x86_64/wobble /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/i386/wobble /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/ppc/wobble -output /Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/MacOS/wobble0#
+
+CGenerateDSYMFile /Users/josh/Documents/xcode/wobble/build/Release/wobble.app.dSYM /Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/MacOS/wobble
+s323832034.960312
+e323832034.997443
+r1
+xGenerateDSYMFile
+x/Users/josh/Documents/xcode/wobble/build/Release/wobble.app.dSYM
+x/Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/MacOS/wobble
+lSLF07#2@93"GenerateDSYMFile build/Release/wobble.app.dSYM build/Release/wobble.app/Contents/MacOS/wobble323832034#323832034#0(0"0(0#0#81"/Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/MacOS/wobble8628939968#224"    cd /Users/josh/Documents/xcode/wobble    /Developer/usr/bin/dsymutil /Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/MacOS/wobble -o /Users/josh/Documents/xcode/wobble/build/Release/wobble.app.dSYM0#
+
+CLd /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/i386/wobble normal i386
+s323832034.526818
+e323832034.694115
+r1
+xLd
+x/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/i386/wobble
+xnormal
+xi386
+lSLF07#2@106"Link /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/i386/wobble323832034#323832034#0(0"0(0#0#0"8628695104#558"    cd /Users/josh/Documents/xcode/wobble    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/josh/Documents/xcode/wobble/build/Release -F/Users/josh/Documents/xcode/wobble/build/Release -filelist /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/i386/wobble.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework IOKit -o /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/i386/wobble0#
+
+CLd /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/ppc/wobble normal ppc
+s323832034.750054
+e323832034.945428
+r1
+xLd
+x/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/ppc/wobble
+xnormal
+xppc
+lSLF07#2@105"Link /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/ppc/wobble323832034#323832034#0(0"0(0#0#0"8613207040#555"    cd /Users/josh/Documents/xcode/wobble    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/josh/Documents/xcode/wobble/build/Release -F/Users/josh/Documents/xcode/wobble/build/Release -filelist /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/ppc/wobble.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework IOKit -o /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/ppc/wobble0#
+
+CLd /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/x86_64/wobble normal x86_64
+s323832034.354198
+e323832034.526505
+r1
+xLd
+x/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/x86_64/wobble
+xnormal
+xx86_64
+lSLF07#2@108"Link /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/x86_64/wobble323832034#323832034#0(0"0(0#0#0"8628623488#564"    cd /Users/josh/Documents/xcode/wobble    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/josh/Documents/xcode/wobble/build/Release -F/Users/josh/Documents/xcode/wobble/build/Release -filelist /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/x86_64/wobble.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework IOKit -o /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/Objects-normal/x86_64/wobble0#
+
+CProcessInfoPlistFile /Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/Info.plist wobble-Info.plist
+s323832027.698269
+e323832027.701763
+r1
+xProcessInfoPlistFile
+x/Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/Info.plist
+xwobble-Info.plist
+lSLF07#2@25"Process wobble-Info.plist323832027#323832027#0(0"0(0#0#52"/Users/josh/Documents/xcode/wobble/wobble-Info.plist8629216192#299"    cd /Users/josh/Documents/xcode/wobble    builtin-infoPlistUtility wobble-Info.plist -genpkginfo /Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/josh/Documents/xcode/wobble/build/Release/wobble.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-aosckeojyrupqdechpbyuteccvcw/wobble_Prefix.pch.gch wobble_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s323832028.005845
+e323832034.021866
+r1
+xProcessPCH
+x/var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-aosckeojyrupqdechpbyuteccvcw/wobble_Prefix.pch.gch
+xwobble_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile wobble_Prefix.pch323832028#323832034#0(0"0(0#0#52"/Users/josh/Documents/xcode/wobble/wobble_Prefix.pch8612028320#1331"    cd /Users/josh/Documents/xcode/wobble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-generated-files.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-own-target-headers.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-all-target-headers.hmap -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-project-headers.hmap -F/Users/josh/Documents/xcode/wobble/build/Release -I/Users/josh/Documents/xcode/wobble/build/Release/include -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources/x86_64 -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources -c /Users/josh/Documents/xcode/wobble/wobble_Prefix.pch -o /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-aosckeojyrupqdechpbyuteccvcw/wobble_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-cdhucdwgzxsuywgifaipgietmyiw/wobble_Prefix.pch.gch wobble_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s323832028.130568
+e323832033.714456
+r1
+xProcessPCH
+x/var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-cdhucdwgzxsuywgifaipgietmyiw/wobble_Prefix.pch.gch
+xwobble_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile wobble_Prefix.pch323832028#323832033#0(0"0(0#0#52"/Users/josh/Documents/xcode/wobble/wobble_Prefix.pch8629194272#1335"    cd /Users/josh/Documents/xcode/wobble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-generated-files.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-own-target-headers.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-all-target-headers.hmap -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-project-headers.hmap -F/Users/josh/Documents/xcode/wobble/build/Release -I/Users/josh/Documents/xcode/wobble/build/Release/include -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources/ppc -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources -c /Users/josh/Documents/xcode/wobble/wobble_Prefix.pch -o /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-cdhucdwgzxsuywgifaipgietmyiw/wobble_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-damnspotikskudakebequynlpzqr/wobble_Prefix.pch.gch wobble_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+s323832028.006695
+e323832028.131977
+r1
+xProcessPCH
+x/var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-damnspotikskudakebequynlpzqr/wobble_Prefix.pch.gch
+xwobble_Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile wobble_Prefix.pch323832028#323832028#0(0"0(0#0#52"/Users/josh/Documents/xcode/wobble/wobble_Prefix.pch8611311584#1321"    cd /Users/josh/Documents/xcode/wobble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-generated-files.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-own-target-headers.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-all-target-headers.hmap -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-project-headers.hmap -F/Users/josh/Documents/xcode/wobble/build/Release -I/Users/josh/Documents/xcode/wobble/build/Release/include -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources/x86_64 -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources -c /Users/josh/Documents/xcode/wobble/wobble_Prefix.pch -o /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-damnspotikskudakebequynlpzqr/wobble_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-etjtxpkawuciyceldavuvpvyzwhb/wobble_Prefix.pch.gch wobble_Prefix.pch normal ppc c com.apple.compilers.gcc.4_2
+s323832028.132108
+e323832028.834456
+r1
+xProcessPCH
+x/var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-etjtxpkawuciyceldavuvpvyzwhb/wobble_Prefix.pch.gch
+xwobble_Prefix.pch
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile wobble_Prefix.pch323832028#323832028#0(0"0(0#0#52"/Users/josh/Documents/xcode/wobble/wobble_Prefix.pch8629048896#1325"    cd /Users/josh/Documents/xcode/wobble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-generated-files.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-own-target-headers.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-all-target-headers.hmap -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-project-headers.hmap -F/Users/josh/Documents/xcode/wobble/build/Release -I/Users/josh/Documents/xcode/wobble/build/Release/include -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources/ppc -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources -c /Users/josh/Documents/xcode/wobble/wobble_Prefix.pch -o /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-etjtxpkawuciyceldavuvpvyzwhb/wobble_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-fayjmmylwqtcawakqhehdwshvfte/wobble_Prefix.pch.gch wobble_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s323832028.008513
+e323832028.130419
+r1
+xProcessPCH
+x/var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-fayjmmylwqtcawakqhehdwshvfte/wobble_Prefix.pch.gch
+xwobble_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile wobble_Prefix.pch323832028#323832028#0(0"0(0#0#52"/Users/josh/Documents/xcode/wobble/wobble_Prefix.pch8610786944#1317"    cd /Users/josh/Documents/xcode/wobble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-generated-files.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-own-target-headers.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-all-target-headers.hmap -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-project-headers.hmap -F/Users/josh/Documents/xcode/wobble/build/Release -I/Users/josh/Documents/xcode/wobble/build/Release/include -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources/i386 -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources -c /Users/josh/Documents/xcode/wobble/wobble_Prefix.pch -o /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-fayjmmylwqtcawakqhehdwshvfte/wobble_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-gycsislzqrqoglcjinoifqakxkgr/wobble_Prefix.pch.gch wobble_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s323832028.007585
+e323832034.106171
+r1
+xProcessPCH
+x/var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-gycsislzqrqoglcjinoifqakxkgr/wobble_Prefix.pch.gch
+xwobble_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile wobble_Prefix.pch323832028#323832034#0(0"0(0#0#52"/Users/josh/Documents/xcode/wobble/wobble_Prefix.pch8610901568#1327"    cd /Users/josh/Documents/xcode/wobble    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-generated-files.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-own-target-headers.hmap -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-all-target-headers.hmap -iquote /Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/wobble-project-headers.hmap -F/Users/josh/Documents/xcode/wobble/build/Release -I/Users/josh/Documents/xcode/wobble/build/Release/include -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources/i386 -I/Users/josh/Documents/xcode/wobble/build/wobble.build/Release/wobble.build/DerivedSources -c /Users/josh/Documents/xcode/wobble/wobble_Prefix.pch -o /var/folders/u6/u6ZxEM4QEdWODe+w4eF+0E+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/wobble_Prefix-gycsislzqrqoglcjinoifqakxkgr/wobble_Prefix.pch.gch0#
+
+CTouch /Users/josh/Documents/xcode/wobble/build/Release/wobble.app
+s323832034.997552
+e323832034.999805
+r1
+xTouch
+x/Users/josh/Documents/xcode/wobble/build/Release/wobble.app
+lSLF07#2@65"Touch /Users/josh/Documents/xcode/wobble/build/Release/wobble.app323832034#323832034#0(0"0(0#0#0"8628799680#124"    cd /Users/josh/Documents/xcode/wobble    /usr/bin/touch -c /Users/josh/Documents/xcode/wobble/build/Release/wobble.app0#
+
