@@ -9,22 +9,28 @@
 /* Begin PBXBuildFile section */
 		0309FF22134D436B00CFCEB4 /* unimotion.c in Sources */ = {isa = PBXBuildFile; fileRef = 0309FF20134D436B00CFCEB4 /* unimotion.c */; };
 		0309FF26134D43C300CFCEB4 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0309FF25134D43C300CFCEB4 /* IOKit.framework */; };
+		032BBD01134FB86600211FCB /* space_set.c in Sources */ = {isa = PBXBuildFile; fileRef = 032BBD00134FB86600211FCB /* space_set.c */; };
+		032BBD0F134FB87C00211FCB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032BBD0E134FB87C00211FCB /* Cocoa.framework */; };
+		032BBD13134FB88700211FCB /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032BBD12134FB88700211FCB /* Carbon.framework */; };
 		0395F567134D798F00A0176B /* ui.m in Sources */ = {isa = PBXBuildFile; fileRef = 0395F566134D798F00A0176B /* ui.m */; };
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* wobbleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* wobbleAppDelegate.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
-		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0309FF20134D436B00CFCEB4 /* unimotion.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unimotion.c; sourceTree = "<group>"; };
 		0309FF21134D436B00CFCEB4 /* unimotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unimotion.h; sourceTree = "<group>"; };
 		0309FF25134D43C300CFCEB4 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		032BBCFF134FB86600211FCB /* CGSPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSPrivate.h; sourceTree = "<group>"; };
+		032BBD00134FB86600211FCB /* space_set.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = space_set.c; sourceTree = "<group>"; };
+		032BBD0E134FB87C00211FCB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		032BBD12134FB88700211FCB /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		032BBD26134FB9B100211FCB /* space_set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = space_set.h; sourceTree = "<group>"; };
 		0395F565134D798F00A0176B /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
 		0395F566134D798F00A0176B /* ui.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ui.m; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		256AC3D80F4B6AC300CF3369 /* wobbleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wobbleAppDelegate.h; sourceTree = "<group>"; };
@@ -42,8 +48,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				0309FF26134D43C300CFCEB4 /* IOKit.framework in Frameworks */,
+				032BBD0F134FB87C00211FCB /* Cocoa.framework in Frameworks */,
+				032BBD13134FB88700211FCB /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +69,8 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				032BBD0E134FB87C00211FCB /* Cocoa.framework */,
+				032BBD12134FB88700211FCB /* Carbon.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -104,6 +112,9 @@
 				0395F565134D798F00A0176B /* ui.h */,
 				0395F566134D798F00A0176B /* ui.m */,
 				0309FF20134D436B00CFCEB4 /* unimotion.c */,
+				032BBCFF134FB86600211FCB /* CGSPrivate.h */,
+				032BBD00134FB86600211FCB /* space_set.c */,
+				032BBD26134FB9B100211FCB /* space_set.h */,
 				0309FF21134D436B00CFCEB4 /* unimotion.h */,
 				256AC3F00F4B6AF500CF3369 /* wobble_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
@@ -196,6 +207,7 @@
 				256AC3DA0F4B6AC300CF3369 /* wobbleAppDelegate.m in Sources */,
 				0309FF22134D436B00CFCEB4 /* unimotion.c in Sources */,
 				0395F567134D798F00A0176B /* ui.m in Sources */,
+				032BBD01134FB86600211FCB /* space_set.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
