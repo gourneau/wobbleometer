@@ -47,7 +47,16 @@
 	[x setIntValue:(motion_x)];
 	[y setIntValue:(motion_y)];
 	[z setIntValue:(motion_z)];
-		
+	if (motion_x <= -20 ){
+		int space_number = 2;
+		set_space(space_number);
+		NSLog(@"trying to go to space 2");
+	}
+	if (motion_x >= 20){
+		int space_number = 1;
+		set_space(space_number);
+		NSLog(@"going to space 1");
+	}
 	
 	
 }
@@ -67,13 +76,8 @@
 	
 	NSLog(@"Space ID - x = %d, y = %d, z = %d", space_id_var);
 	[space_id setIntValue:(space_id_var)];
-	
-	
+		
 }
-
-
-
-
 
 
 @end
