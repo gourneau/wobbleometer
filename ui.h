@@ -20,17 +20,3 @@
 
 @end
 	
-
-@interface spaces : NSObject {
-	IBOutlet NSTextField *space_id;
-}
--(IBAction)click:(id)sender;
-
-@end
-
-@interface change_space : NSObject {
-
-}
--(IBAction)click:(id)sender;
-
-@end

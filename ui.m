@@ -12,7 +12,7 @@
 #include "unimotion.h"
 
 //get the space
-#include "space_set.h"
+//#include "space_set.h"
 
 @implementation ui
 - (IBAction)click:(id)sender;
@@ -49,12 +49,12 @@
 	[z setIntValue:(motion_z)];
 	if (motion_x <= -20 ){
 		int space_number = 2;
-		set_space(space_number);
+		//set_space(space_number,true);
 		NSLog(@"trying to go to space 2");
 	}
 	if (motion_x >= 20){
 		int space_number = 1;
-		set_space(space_number);
+		//set_space(space_number,true);
 		NSLog(@"going to space 1");
 	}
 	
@@ -66,37 +66,5 @@
 
 @end
 
-@implementation spaces
-- (IBAction)click:(id)sender;
-{
-	
-	int space_id_var;
-	
-	space_id_var = get_space();
-	
-	NSLog(@"Space ID - x = %d, y = %d, z = %d", space_id_var);
-	[space_id setIntValue:(space_id_var)];
-		
-}
-
-
-@end
-
-
-@implementation change_space
-- (IBAction)click:(id)sender;
-{
-	
-	int space_number = 2;
-	
-	set_space(space_number);
-	
-	NSLog(@"Space changed to  %d", space_number);
-
-	
-	
-}
-
-@end
 
 
